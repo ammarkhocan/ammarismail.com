@@ -54,6 +54,7 @@ Feel free to connect with me through the following platforms:
 - [LinkedIn](https://www.linkedin.com/in/ammarismailkhocan/)
 - [Instagram](https://www.instagram.com/ammarkhocan/)
 - [GitHub](https://github.com/ammarkhocan)
+- [Telegram](https://t.me/ammarkho)
 
 ---
 
