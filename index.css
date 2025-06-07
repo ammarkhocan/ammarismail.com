@@ -3,19 +3,72 @@ body {
   background-color: #030303;
   color: #f1efec;
   margin: 0;
+  padding: 0;
 }
 
 .navbar {
   background-color: #2c2c2c;
+  padding: 16px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f1efec;
+  margin: 0;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar a {
+  color: #f1efec;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffffff;
 }
 
 .intro {
   max-width: 700px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 .profil-image {
   width: 170px;
   height: 170px;
   border-radius: 50%;
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.content p {
+  margin-top: 0;
+  line-height: 1.6;
+}
+
+.content p .developer-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.social-links a img {
+  width: 25px;
+  margin-right: 15px;
 }
