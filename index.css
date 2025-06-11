@@ -167,3 +167,29 @@ page about
   height: 55px;
   object-fit: contain;
 }
+
+/*=====================
+Page Project
+=====================*/
+.projects-section {
+  margin: 100px auto;
+  max-width: 800px;
+  padding: 0 16px;
+}
+
+.projects-intro {
+  margin-bottom: 32px;
+}
+
+.projects-intro h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  color: #f1efec;
+}
+
+.projects-intro p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  color: #cfcfcf;
+}
