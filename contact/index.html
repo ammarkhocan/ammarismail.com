@@ -23,34 +23,42 @@
       </div>
     </nav>
 
-    <main>
-      <form>
-        <div>
-          <label>Full Name</label>
+    <main class="contact-main">
+      <form class="contact-form">
+        <div class="form-group">
+          <label class="form-label">Full Name</label>
           <input
+            class="form-input"
             name="full-name"
             type="text"
             placeholder="Your Name"
             required
           />
         </div>
-        <div>
-          <label>Email</label>
+        <div class="form-group">
+          <label class="form-label">Email</label>
           <input
+            class="form-input"
             name="email"
             type="email"
             placeholder="example@domain.com"
             required
           />
         </div>
-        <div>
-          <label for="password">Phone</label>
-          <input name="phone" type="tel" placeholder="+62 82288655" required />
+        <div class="form-group">
+          <label class="form-label" for="phone">Phone</label>
+          <input
+            class="form-input"
+            name="phone"
+            type="tel"
+            placeholder="+62 82288655"
+            required
+          />
         </div>
-
-        <div>
-          <label for="message">Message</label>
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
           <textarea
+            class="form-input"
             id="message"
             name="message"
             rows="5"
@@ -58,23 +66,26 @@
             required
           ></textarea>
         </div>
-
-        <button type="submit">Send Message</button>
+        <button class="form-btn" type="submit">Send Message</button>
       </form>
     </main>
 
-    <br />
-    <footer>
-      <div>
-        <a href="https://www.linkedin.com/in/ammarismailkhocan" target="_blank"
-          ><img src="/images/linkedin.svg" alt="Linkedin"
-        /></a>
-        <a href="https://github.com/ammarkhocan" target="_blank"
-          ><img src="/images/github.svg" alt="Github"
-        /></a>
-        <a href="https://www.instagram.com/ammarkhocan/" target="_blank"
-          ><img src="/images/instagram.svg" alt="Instagram"
-        /></a>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="footer-icons">
+          <a
+            href="https://www.linkedin.com/in/ammarismailkhocan"
+            target="_blank"
+          >
+            <img src="/images/linkedin.svg" alt="Linkedin" />
+          </a>
+          <a href="https://github.com/ammarkhocan" target="_blank">
+            <img src="/images/github.svg" alt="Github" />
+          </a>
+          <a href="https://www.instagram.com/ammarkhocan/" target="_blank">
+            <img src="/images/instagram.svg" alt="Instagram" />
+          </a>
+        </div>
         <p>&copy; 2025 Ammar Ismail Khocan</p>
       </div>
     </footer>
