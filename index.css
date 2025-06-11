@@ -91,9 +91,8 @@ body {
 
 .footer-icons {
   display: flex;
-  flex-direction: row; /* Tampilkan icon secara baris */
-  gap: 18px; /* Jarak antar icon */
-  align-items: center;
+  flex-direction: row;
+  gap: 18px;
   justify-content: center;
   margin-bottom: 10px;
 }
