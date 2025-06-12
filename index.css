@@ -43,6 +43,59 @@ body {
   color: #ffffff;
 }
 
+/* navbar menu */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-toggle img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Responsive Navbar (tambahan) */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.navbar-toggle img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .navbar .container {
+    padding: 0 20px;
+    flex-wrap: wrap;
+  }
+
+  .navbar ul {
+    border: solid white 2px;
+    display: none;
+    flex-direction: column;
+    width: 50%;
+    background: #2c2c2c;
+    position: absolute;
+    top: 48px; /* adjust jika tinggi navbar beda */
+    right: 0;
+    padding: 20px 0;
+    gap: 16px;
+    z-index: 100;
+    align-items: center;
+  }
+
+  .navbar ul.active {
+    display: flex;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+}
+
 .intro {
   max-width: 800px;
   margin: 100px auto;
