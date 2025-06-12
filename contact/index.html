@@ -14,7 +14,10 @@
     <nav class="navbar">
       <div class="container">
         <h1 class="logo">Logo</h1>
-        <ul>
+        <div class="navbar-toggle" id="navbar-toggle">
+          <img src="/images/menu.svg" alt="Menu" />
+        </div>
+        <ul id="navbar-menu">
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/project">Project</a></li>
@@ -59,7 +62,6 @@
           <label class="form-label" for="message">Message</label>
           <textarea
             class="form-input"
-            id="message"
             name="message"
             rows="5"
             placeholder="Write your message here..."
@@ -89,5 +91,13 @@
         <p>&copy; 2025 Ammar Ismail Khocan</p>
       </div>
     </footer>
+    <script>
+      const toggle = document.getElementById("navbar-toggle");
+      const menu = document.getElementById("navbar-menu");
+
+      toggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
   </body>
 </html>
