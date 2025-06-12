@@ -240,6 +240,43 @@ page about
   object-fit: contain;
 }
 
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 32px 8px;
+  }
+
+  .about-image img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .about-content {
+    font-size: 16px;
+    text-align: left;
+    padding: 0;
+  }
+
+  /* .about-resume {
+    font-size: 15px;
+  } */
+
+  .tech-stacks {
+    margin-top: 60px;
+  }
+
+  .tech-icons {
+    gap: 1rem;
+  }
+
+  .tech-icons img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
 /*=====================
 Page Project
 =====================*/
