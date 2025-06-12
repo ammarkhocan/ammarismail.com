@@ -127,6 +127,25 @@ body {
   margin-right: 15px;
 }
 
+@media (max-width: 768px) {
+  .intro {
+    margin: 100px 8px 0 8px;
+    padding: 16px;
+    /* text-align: center; */
+  }
+  .profil-image {
+    width: 110px;
+    height: 110px;
+  }
+  .content h1 {
+    font-size: 1.5rem;
+  }
+  .social-links a img {
+    width: 22px;
+    margin-right: 12px;
+  }
+}
+
 /* footer */
 .footer {
   color: #f1efec;
