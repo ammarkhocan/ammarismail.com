@@ -4,7 +4,7 @@
 
 ## Overview
 
-**ammarismail.com** is the personal website of Ammar Ismail Khocan. It showcases a professional profile, portfolio of projects, and contact information. This site was built as an online presence to represent my skills and work in web development and UI/UX design.
+**ammarismail.com** is the personal website of Ammar Ismail Khocan. It showcases a professional profile, portfolio of projects, and contact information. This site was built as an online presence to represent my skills and work in web development.
 
 ## Pages
 
@@ -12,14 +12,6 @@
 - **About**
 - **Project**
 - **Contact**
-
-## Inspirations
-
-Some design and development inspirations that influenced this website:
-
-- [Griko Nibras](https://nibras.co)
-- [Muhammad Yusuf Untung Wahyudi](https://myusufuw.com/)
-- [Brilliant Hanif](https://www.hanifptw.com/)
 
 ## 👨‍💻 Skills
 
